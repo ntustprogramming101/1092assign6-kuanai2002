@@ -1,8 +1,12 @@
-class Dinosaur {
+class Dinosaur extends Enemy{
 	// Requirement #4: Complete Dinosaur Class
 
 	final float TRIGGERED_SPEED_MULTIPLIER = 5;
 
+  
+  
+  
+  
 	// HINT: Player Detection in update()
 	/*
 	float currentSpeed = speed
